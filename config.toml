@@ -1,0 +1,6 @@
+project_id = "YOUR_SUPABASE_PROJECT_REF"
+
+[functions.grain-gateway]
+# The gateway has public provider-webhook and community-intake routes.
+# It performs its own JWT validation for all authenticated admin actions.
+verify_jwt = false
